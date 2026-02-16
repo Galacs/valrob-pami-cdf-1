@@ -412,6 +412,10 @@
     [
       "453def7e-2a78-4c3c-a4b7-f12883e5bdd2",
       "Root"
+    ],
+    [
+      "ac36a521-9363-451f-b288-e4e7fa573403",
+      "Stepper driver"
     ]
   ],
   "text_variables": {}

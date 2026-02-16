@@ -7694,7 +7694,7 @@
 	)
 	(text "BQ77905 Battery protection"
 		(exclude_from_sim no)
-		(at 107.188 25.908 0)
+		(at 108.204 22.86 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -7827,6 +7827,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1646cb1a-9028-4ce6-8ac4-3e13db61b953")
+	)
+	(junction
+		(at 80.01 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1891e042-9442-4205-a15c-6e5468da554c")
 	)
 	(junction
 		(at 204.47 34.29)
@@ -8799,6 +8805,16 @@
 			(type default)
 		)
 		(uuid "1aa94b49-20f2-42dd-b577-d6b9fa083bb1")
+	)
+	(wire
+		(pts
+			(xy 83.82 34.29) (xy 83.82 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca2aadb-1e26-4be1-807d-bcc09fb327eb")
 	)
 	(wire
 		(pts
@@ -10102,6 +10118,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 26.67) (xy 83.82 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e1a8ae-834e-4222-8823-8b778fb00f07")
+	)
+	(wire
+		(pts
 			(xy 34.29 24.13) (xy 34.29 25.4)
 		)
 		(stroke
@@ -10359,6 +10385,16 @@
 			(type default)
 		)
 		(uuid "8ef218c5-177c-4100-8f68-153b737a3d28")
+	)
+	(wire
+		(pts
+			(xy 83.82 25.4) (xy 80.01 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3be91d-ca35-4c66-81fe-7c4c2c4b1f89")
 	)
 	(wire
 		(pts
@@ -14895,6 +14931,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 83.82 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b225d9c-b735-445e-8410-3ef900c1e617")
+		(property "Reference" "R13"
+			(at 86.36 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470k"
+			(at 86.36 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 82.042 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 83.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23178"
+			(at 83.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 83.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF4703T5E"
+			(at 83.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c48f7fc-6bfc-4432-98fa-8a927b7b9d97")
+		)
+		(pin "1"
+			(uuid "aec2acec-da52-4b86-bd26-7b8591822aa7")
+		)
+		(instances
+			(project "valrob-pami-cdf-1"
+				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 119.38 187.96 0)
 		(unit 1)
@@ -18217,6 +18358,72 @@
 			(project "valrob-pami-cdf-1"
 				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 83.82 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ff03d43-9cf1-40b9-acf0-5e00c2b4c215")
+		(property "Reference" "#PWR07"
+			(at 83.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BGND"
+			(at 83.82 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 83.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7099f4b-5ce0-4191-bf43-c82be29e1efa")
+		)
+		(instances
+			(project "valrob-pami-cdf-1"
+				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

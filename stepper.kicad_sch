@@ -1883,6 +1883,12 @@
 		(uuid "678b58f1-f0fd-4536-8513-da60525a0845")
 	)
 	(junction
+		(at 161.29 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68521f70-af7e-4959-abda-a79ed214a1c9")
+	)
+	(junction
 		(at 167.64 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1905,6 +1911,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eee50c14-cf1f-4214-bcf8-d1ec584774e4")
+	)
+	(no_connect
+		(at 160.02 107.95)
+		(uuid "023ffb0a-aca8-46cf-8348-bc0d6be3d11a")
+	)
+	(no_connect
+		(at 134.62 110.49)
+		(uuid "eb358921-8beb-4ebe-a317-437f0551f6e0")
 	)
 	(wire
 		(pts
@@ -1998,6 +2012,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 114.3) (xy 161.29 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44464503-acbd-42d9-b7fe-12a00d2c3567")
+	)
+	(wire
+		(pts
 			(xy 125.73 91.44) (xy 125.73 92.71)
 		)
 		(stroke
@@ -2078,6 +2102,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 107.95) (xy 125.73 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7582668e-4609-4508-a3f2-92b1710cff8a")
+	)
+	(wire
+		(pts
 			(xy 128.27 104.14) (xy 134.62 104.14)
 		)
 		(stroke
@@ -2118,6 +2152,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 110.49) (xy 161.29 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87361f2e-6816-42fe-82d2-93484877d807")
+	)
+	(wire
+		(pts
 			(xy 160.02 105.41) (xy 165.1 105.41)
 		)
 		(stroke
@@ -2148,6 +2192,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 107.95) (xy 125.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9daecdf4-40b5-4c1b-b154-7810cf56f4a9")
+	)
+	(wire
+		(pts
 			(xy 160.02 99.06) (xy 162.56 99.06)
 		)
 		(stroke
@@ -2175,6 +2229,16 @@
 			(type default)
 		)
 		(uuid "a08cbd15-a070-4bb3-9cb5-130727b61cfe")
+	)
+	(wire
+		(pts
+			(xy 161.29 113.03) (xy 160.02 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89995af-683b-42d3-9c9f-805664714763")
 	)
 	(wire
 		(pts
@@ -2285,6 +2349,16 @@
 			(type default)
 		)
 		(uuid "d72ba91c-9014-4d14-ba9b-2005a2d7d82a")
+	)
+	(wire
+		(pts
+			(xy 160.02 110.49) (xy 161.29 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da23fea8-583e-450f-86a2-f0afce3ae8fa")
 	)
 	(wire
 		(pts
@@ -2611,6 +2685,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 161.29 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c60a114-95ea-48ec-877a-21d4778fcae7")
+		(property "Reference" "#PWR066"
+			(at 161.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.354 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ba3f3ae-64aa-4291-b100-23619d8b54c6")
+		)
+		(instances
+			(project "valrob-pami-cdf-1"
+				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2/ac36a521-9363-451f-b288-e4e7fa573403"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 163.83 80.01 0)
 		(unit 1)
@@ -2711,6 +2852,71 @@
 			(project "valrob-pami-cdf-1"
 				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2/ac36a521-9363-451f-b288-e4e7fa573403"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 125.73 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a2f29f8-d3a8-4beb-95a4-cea7c2005911")
+		(property "Reference" "#PWR061"
+			(at 125.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 121.666 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 125.73 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb02c637-ea70-4fa0-a2ac-afb1f501d4ce")
+		)
+		(instances
+			(project "valrob-pami-cdf-1"
+				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2/ac36a521-9363-451f-b288-e4e7fa573403"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)

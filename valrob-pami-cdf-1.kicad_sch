@@ -5816,14 +5816,14 @@
 				(pin bidirectional line
 					(at -33.02 -33.02 0)
 					(length 2.54)
-					(name "GPIO36"
+					(name "GPIO37"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "41"
+					(number "42"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5834,14 +5834,14 @@
 				(pin bidirectional line
 					(at -33.02 -35.56 0)
 					(length 2.54)
-					(name "GPIO37"
+					(name "GPIO36"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "42"
+					(number "41"
 						(effects
 							(font
 								(size 1.27 1.27)

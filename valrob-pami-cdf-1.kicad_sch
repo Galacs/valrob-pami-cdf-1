@@ -5780,24 +5780,6 @@
 				(pin bidirectional line
 					(at -33.02 -27.94 0)
 					(length 2.54)
-					(name "GPIO34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -33.02 -30.48 0)
-					(length 2.54)
 					(name "GPIO35"
 						(effects
 							(font
@@ -5814,7 +5796,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 -33.02 0)
+					(at -33.02 -30.48 0)
 					(length 2.54)
 					(name "GPIO37"
 						(effects
@@ -5824,6 +5806,24 @@
 						)
 					)
 					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -33.02 0)
+					(length 2.54)
+					(name "GPIO34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10723,6 +10723,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 81.28) (xy 260.35 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374d61a5-095b-4bd2-88e9-01eb7fbbf715")
+	)
+	(wire
+		(pts
 			(xy 147.32 193.04) (xy 147.32 191.77)
 		)
 		(stroke
@@ -12420,16 +12430,6 @@
 			(type default)
 		)
 		(uuid "8c385cdd-c0d9-466f-9ec1-cd163fc55241")
-	)
-	(wire
-		(pts
-			(xy 255.27 76.2) (xy 260.35 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c9b7c42-069c-4bdf-93f9-3e49179aafe2")
 	)
 	(wire
 		(pts
@@ -14771,16 +14771,6 @@
 		)
 		(uuid "84ef5c5f-9306-4c87-89e4-43664b7b9819")
 	)
-	(label "EMS"
-		(at 260.35 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8aa88209-e638-490b-868e-e5fdd5fd83c5")
-	)
 	(label "DIR_2"
 		(at 139.7 95.25 0)
 		(effects
@@ -14870,6 +14860,16 @@
 			(justify right bottom)
 		)
 		(uuid "aad3a9d2-2827-4382-b3d1-084bf173fc8c")
+	)
+	(label "EMS"
+		(at 260.35 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae28dd93-7bbb-44f4-b5df-1bbad825b69e")
 	)
 	(label "XTAL_P"
 		(at 180.34 78.74 0)

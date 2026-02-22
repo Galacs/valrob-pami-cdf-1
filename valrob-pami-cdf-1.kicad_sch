@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "453def7e-2a78-4c3c-a4b7-f12883e5bdd2")
 	(paper "A4")
+	(title_block
+		(title "Carte Pami CDF 1")
+		(date "2026-02-22")
+		(rev "01")
+		(company "Valrobotik")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names

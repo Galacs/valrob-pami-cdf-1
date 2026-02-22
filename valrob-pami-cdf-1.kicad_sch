@@ -5312,8 +5312,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -30.48 43.18 0)
+			(property "Reference" "U4"
+				(at -18.796 -39.878 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5321,8 +5321,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ESP32-S3"
-				(at -30.48 40.64 0)
+			(property "Value" "ESP32-S3FN8"
+				(at -18.796 -42.418 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5330,7 +5330,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm"
+			(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm_ThermalVias"
 				(at 0 -48.26 0)
 				(effects
 					(font
@@ -5349,6 +5349,42 @@
 				)
 			)
 			(property "Description" "ESP32-S3 is a low-power MCU-based system-on-chip (SoC) that supports 2.4 GHz Wi-Fi and Bluetooth® Low Energy (Bluetooth LE). It consists of high-performance dual-core microprocessor (Xtensa® 32-bit LX7), a low power coprocessor, a Wi-Fi baseband, a Bluetooth LE baseband, RF module, and peripherals."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Basic" "X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C3013940"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Espressif"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "ESP32-S3FH4R2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5726,14 +5762,14 @@
 				(pin bidirectional line
 					(at -33.02 -25.4 0)
 					(length 2.54)
-					(name "GPIO33"
+					(name "GPIO46"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "38"
+					(number "52"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6394,14 +6430,14 @@
 				(pin bidirectional line
 					(at 33.02 -30.48 180)
 					(length 2.54)
-					(name "GPIO46"
+					(name "GPIO33"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "52"
+					(number "38"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9578,10 +9614,6 @@
 		(uuid "84a741c5-6a19-4aac-8467-5ff7436077e1")
 	)
 	(no_connect
-		(at 255.27 121.92)
-		(uuid "8ba46051-1dc8-4a5d-8867-8a02b67e7673")
-	)
-	(no_connect
 		(at 189.23 88.9)
 		(uuid "8d405253-a84f-4a66-a013-f5f7b1492817")
 	)
@@ -9973,6 +10005,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 109.22) (xy 255.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0ffd82-87be-49fb-8f49-ef65ca95575b")
+	)
+	(wire
+		(pts
 			(xy 237.49 147.32) (xy 237.49 148.59)
 		)
 		(stroke
@@ -10340,16 +10382,6 @@
 			(type default)
 		)
 		(uuid "2187c466-dd5e-473c-a69a-21be4409a3fb")
-	)
-	(wire
-		(pts
-			(xy 264.16 111.76) (xy 255.27 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21a2e52b-b71f-40fa-bd31-5e52bfcfdb8d")
 	)
 	(wire
 		(pts
@@ -12263,16 +12295,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 104.14) (xy 255.27 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "858d0bb3-a033-4140-a8d3-e1b3b96abf27")
-	)
-	(wire
-		(pts
 			(xy 264.16 96.52) (xy 255.27 96.52)
 		)
 		(stroke
@@ -12690,16 +12712,6 @@
 			(type default)
 		)
 		(uuid "9ef16731-a90f-4b8f-8899-dd807df35454")
-	)
-	(wire
-		(pts
-			(xy 264.16 106.68) (xy 255.27 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f21eb39-962f-4790-9793-ef93acf0a8ac")
 	)
 	(wire
 		(pts
@@ -13673,6 +13685,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 111.76) (xy 255.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8717913-dc92-4559-af9f-11157dff7e97")
+	)
+	(wire
+		(pts
 			(xy 165.1 184.15) (xy 165.1 182.88)
 		)
 		(stroke
@@ -14083,6 +14105,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 109.22) (xy 267.97 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeea217d-f3e2-47e1-9f47-fe8148012c19")
+	)
+	(wire
+		(pts
 			(xy 90.17 63.5) (xy 90.17 62.23)
 		)
 		(stroke
@@ -14411,16 +14443,6 @@
 		)
 		(uuid "058bcfca-3320-4b1e-a114-2bcacc6664ae")
 	)
-	(label "~{SLEEP_2}"
-		(at 264.16 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "060dad63-2da4-469a-afb9-88f9aaf2a050")
-	)
 	(label "RF_ESP"
 		(at 177.8 44.45 0)
 		(effects
@@ -14451,6 +14473,16 @@
 		)
 		(uuid "0a3a902b-383b-4567-afdf-00f0501570f3")
 	)
+	(label "EN_2"
+		(at 264.16 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0bd9a306-ceb8-476a-93ee-39538988754f")
+	)
 	(label "STEP_1"
 		(at 264.16 76.2 180)
 		(effects
@@ -14460,6 +14492,16 @@
 			(justify right bottom)
 		)
 		(uuid "1216eabd-6ba8-46de-a4e3-05c4c5748a49")
+	)
+	(label "~{SLEEP_2}"
+		(at 264.16 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16c14873-4c8f-465a-a882-93c171d0381c")
 	)
 	(label "BOOT"
 		(at 134.62 185.42 180)
@@ -14521,16 +14563,6 @@
 		)
 		(uuid "3441e8a4-3d27-4f3b-ac66-b508b9b57d28")
 	)
-	(label "EN_2"
-		(at 264.16 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3bccb9e1-cd50-46d3-bc33-1c98af8d426f")
-	)
 	(label "SCL"
 		(at 115.57 138.43 0)
 		(effects
@@ -14580,6 +14612,16 @@
 			(justify left bottom)
 		)
 		(uuid "51d6a0c0-b3fb-4bf6-afe8-9253ee7f2492")
+	)
+	(label "BUZZER"
+		(at 276.86 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5378db69-7ddb-4ecf-bf1f-3071fd717854")
 	)
 	(label "~{FAULT_2}"
 		(at 279.4 120.65 180)
@@ -14670,16 +14712,6 @@
 			(justify left bottom)
 		)
 		(uuid "77f4893e-e129-4b11-b051-67573778f807")
-	)
-	(label "BUZZER"
-		(at 264.16 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7b22e880-26ef-4fd9-9cb2-c79aef6f8671")
 	)
 	(label "RGB1"
 		(at 264.16 114.3 180)

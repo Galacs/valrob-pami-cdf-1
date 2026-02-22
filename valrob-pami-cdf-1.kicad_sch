@@ -8463,7 +8463,7 @@
 	)
 	(text "Buttons"
 		(exclude_from_sim no)
-		(at 131.826 194.31 0)
+		(at 132.334 194.818 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -8862,12 +8862,6 @@
 		(uuid "5aab263e-aadc-4322-8fd5-f9da21e83752")
 	)
 	(junction
-		(at 113.03 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d1accd7-8262-4b5d-bcd7-3345eb7b13ef")
-	)
-	(junction
 		(at 62.23 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8916,6 +8910,12 @@
 		(uuid "6eb17d90-fb1e-41ff-8e7b-04d70212b173")
 	)
 	(junction
+		(at 113.03 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71e25c8e-1f70-4fc8-857c-1ec29c8462a4")
+	)
+	(junction
 		(at 200.66 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8932,6 +8932,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78155bea-4a87-49d3-814d-edf5f00b8f2e")
+	)
+	(junction
+		(at 113.03 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79deed4c-3713-4488-a0a0-f4f653626c72")
 	)
 	(junction
 		(at 195.58 146.05)
@@ -9403,7 +9409,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 181.61) (xy 115.57 181.61)
+			(xy 113.03 185.42) (xy 115.57 185.42)
 		)
 		(stroke
 			(width 0)
@@ -9830,6 +9836,16 @@
 			(type default)
 		)
 		(uuid "1aa94b49-20f2-42dd-b577-d6b9fa083bb1")
+	)
+	(wire
+		(pts
+			(xy 125.73 180.34) (xy 134.62 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bdea1d6-90eb-46e4-94bf-df148a1185d4")
 	)
 	(wire
 		(pts
@@ -11443,16 +11459,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 181.61) (xy 113.03 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cd5ea9b-e637-4521-b9a6-dfdf549f1019")
-	)
-	(wire
-		(pts
 			(xy 181.61 78.74) (xy 189.23 78.74)
 		)
 		(stroke
@@ -11943,7 +11949,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 186.69) (xy 134.62 186.69)
+			(xy 125.73 190.5) (xy 134.62 190.5)
 		)
 		(stroke
 			(width 0)
@@ -12020,6 +12026,16 @@
 			(type default)
 		)
 		(uuid "a1fda529-3e1d-4fbf-a885-338224735374")
+	)
+	(wire
+		(pts
+			(xy 113.03 180.34) (xy 113.03 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dcfe2f-0a58-4b6e-83c2-a85d715380a5")
 	)
 	(wire
 		(pts
@@ -12563,7 +12579,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 181.61) (xy 134.62 181.61)
+			(xy 125.73 185.42) (xy 134.62 185.42)
 		)
 		(stroke
 			(width 0)
@@ -12610,6 +12626,16 @@
 			(type default)
 		)
 		(uuid "cab304bb-847c-4a4d-a17a-421a8db1d4d8")
+	)
+	(wire
+		(pts
+			(xy 113.03 190.5) (xy 113.03 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae59ab4-70ae-4e21-8889-57c02bd3b907")
 	)
 	(wire
 		(pts
@@ -12820,6 +12846,16 @@
 			(type default)
 		)
 		(uuid "dab94e0e-815a-4600-b7f2-460b2abde2de")
+	)
+	(wire
+		(pts
+			(xy 115.57 180.34) (xy 113.03 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daef2712-1b13-4b77-a1d3-de9666a9bfa5")
 	)
 	(wire
 		(pts
@@ -13153,7 +13189,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 186.69) (xy 113.03 189.23)
+			(xy 113.03 185.42) (xy 113.03 190.5)
 		)
 		(stroke
 			(width 0)
@@ -13193,7 +13229,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 186.69) (xy 115.57 186.69)
+			(xy 113.03 190.5) (xy 115.57 190.5)
 		)
 		(stroke
 			(width 0)
@@ -13372,7 +13408,7 @@
 		(uuid "0a3a902b-383b-4567-afdf-00f0501570f3")
 	)
 	(label "BOOT"
-		(at 134.62 181.61 180)
+		(at 134.62 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13462,7 +13498,7 @@
 		(uuid "552b7754-857f-495b-88eb-2c57abddf69f")
 	)
 	(label "CHIP_PU"
-		(at 134.62 186.69 180)
+		(at 134.62 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13550,6 +13586,16 @@
 			(justify right bottom)
 		)
 		(uuid "b385c936-c506-4e8b-b124-56ca9ce230e5")
+	)
+	(label "EMS"
+		(at 134.62 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1d31e73-1af1-4952-8e38-1815100fe7bf")
 	)
 	(label "VDD_SPI"
 		(at 194.31 36.83 0)
@@ -15090,6 +15136,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 120.65 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e32bd2d-12ea-4499-bfa0-37a0151cac80")
+		(property "Reference" "SW2"
+			(at 125.222 182.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 120.65 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 120.65 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 120.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 120.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "B2B-XH-A(LF)(SN)"
+			(at 120.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Z"
+			(at 120.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C158012"
+			(at 120.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d40aff67-bc69-4de5-aba4-028ee28f36df")
+		)
+		(pin "1"
+			(uuid "0454efa9-55a8-4673-afca-33c93e2ca618")
+		)
+		(instances
+			(project "valrob-pami-cdf-1"
+				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 68.58 27.94 270)
 		(mirror x)
@@ -15609,7 +15759,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 120.65 186.69 0)
+		(at 120.65 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15617,7 +15767,7 @@
 		(dnp no)
 		(uuid "1e9d8797-ac6e-4105-a821-e6f4e3ff284f")
 		(property "Reference" "SW4"
-			(at 123.698 188.976 0)
+			(at 123.698 192.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15625,7 +15775,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 120.65 181.61 0)
+			(at 120.65 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15634,7 +15784,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
-			(at 120.65 181.61 0)
+			(at 120.65 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15643,7 +15793,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 181.61 0)
+			(at 120.65 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15652,7 +15802,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 120.65 186.69 0)
+			(at 120.65 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15661,7 +15811,7 @@
 			)
 		)
 		(property "Manufacturer" "XUNPU"
-			(at 120.65 186.69 0)
+			(at 120.65 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15670,7 +15820,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TS-1088-AR02016"
-			(at 120.65 186.69 0)
+			(at 120.65 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15679,7 +15829,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 120.65 186.69 0)
+			(at 120.65 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15688,7 +15838,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C720477"
-			(at 120.65 186.69 0)
+			(at 120.65 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16928,7 +17078,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 189.23 0)
+		(at 113.03 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16937,7 +17087,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c6c18ec-6b0a-431b-8892-4c932d1cbddd")
 		(property "Reference" "#PWR040"
-			(at 113.03 195.58 0)
+			(at 113.03 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16946,7 +17096,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 194.31 0)
+			(at 113.03 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16955,7 +17105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 189.23 0)
+			(at 113.03 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16964,7 +17114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 189.23 0)
+			(at 113.03 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16973,7 +17123,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 189.23 0)
+			(at 113.03 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19589,7 +19739,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 120.65 181.61 0)
+		(at 120.65 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19597,7 +19747,7 @@
 		(dnp no)
 		(uuid "5de6ea55-a8c1-4e49-91c4-c57a34c0b460")
 		(property "Reference" "SW3"
-			(at 124.46 183.388 0)
+			(at 124.46 187.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19605,7 +19755,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 120.65 176.53 0)
+			(at 120.65 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19614,7 +19764,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
-			(at 120.65 176.53 0)
+			(at 120.65 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19623,7 +19773,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 176.53 0)
+			(at 120.65 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19632,7 +19782,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 120.65 181.61 0)
+			(at 120.65 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19641,7 +19791,7 @@
 			)
 		)
 		(property "Manufacturer" "XUNPU"
-			(at 120.65 181.61 0)
+			(at 120.65 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19650,7 +19800,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TS-1088-AR02016"
-			(at 120.65 181.61 0)
+			(at 120.65 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19659,7 +19809,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 120.65 181.61 0)
+			(at 120.65 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19668,7 +19818,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C720477"
-			(at 120.65 181.61 0)
+			(at 120.65 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)

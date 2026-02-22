@@ -8706,12 +8706,6 @@
 		(uuid "1646cb1a-9028-4ce6-8ac4-3e13db61b953")
 	)
 	(junction
-		(at 85.09 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ad85739-f990-48ba-a183-ca7632ef14d6")
-	)
-	(junction
 		(at 212.09 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8746,6 +8740,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2400f704-13cd-44db-9b4d-94043751594f")
+	)
+	(junction
+		(at 86.36 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24a141af-e2e8-429a-9be1-47640d79813d")
 	)
 	(junction
 		(at 25.4 95.25)
@@ -9030,16 +9030,16 @@
 		(uuid "942e956d-273a-44fe-8428-7e6646b6d135")
 	)
 	(junction
-		(at 85.09 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9466a802-e7a4-49a6-98df-e0974d444b5a")
-	)
-	(junction
 		(at 176.53 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9595273b-a115-452e-80e9-23c024d73300")
+	)
+	(junction
+		(at 86.36 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95b8d05b-2e01-47e3-858a-0c14436d9a3a")
 	)
 	(junction
 		(at 33.02 41.91)
@@ -9682,16 +9682,6 @@
 			(type default)
 		)
 		(uuid "0b39310f-4a61-4099-a121-1e8fa2ba67e8")
-	)
-	(wire
-		(pts
-			(xy 77.47 157.48) (xy 85.09 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bf07fc7-bc2f-43dd-8f66-e41e2a6a4a00")
 	)
 	(wire
 		(pts
@@ -12905,7 +12895,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 167.64) (xy 85.09 167.64)
+			(xy 81.28 167.64) (xy 86.36 167.64)
 		)
 		(stroke
 			(width 0)
@@ -13255,16 +13245,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 157.48) (xy 85.09 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca4a9a3d-2efd-4877-a5bc-4915f27b4fae")
-	)
-	(wire
-		(pts
 			(xy 40.64 187.96) (xy 44.45 187.96)
 		)
 		(stroke
@@ -13275,7 +13255,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 167.64) (xy 85.09 167.64)
+			(xy 88.9 167.64) (xy 86.36 167.64)
 		)
 		(stroke
 			(width 0)
@@ -13755,7 +13735,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 157.48) (xy 90.17 157.48)
+			(xy 77.47 157.48) (xy 90.17 157.48)
 		)
 		(stroke
 			(width 0)
@@ -13825,6 +13805,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 154.94) (xy 86.36 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99ec4b6-2f4a-45e0-b955-cbd82f8bafdd")
+	)
+	(wire
+		(pts
 			(xy 242.57 149.86) (xy 242.57 147.32)
 		)
 		(stroke
@@ -13872,6 +13862,16 @@
 			(type default)
 		)
 		(uuid "ec04a728-104e-4273-a734-509f5894a5e9")
+	)
+	(wire
+		(pts
+			(xy 86.36 154.94) (xy 90.17 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed63e990-ff2d-4351-9eef-0fad0c75dd14")
 	)
 	(wire
 		(pts
@@ -14085,7 +14085,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 154.94) (xy 90.17 154.94)
+			(xy 81.28 154.94) (xy 86.36 154.94)
 		)
 		(stroke
 			(width 0)
@@ -14185,7 +14185,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 166.37) (xy 85.09 167.64)
+			(xy 86.36 166.37) (xy 86.36 167.64)
 		)
 		(stroke
 			(width 0)
@@ -21788,7 +21788,7 @@
 	)
 	(symbol
 		(lib_id "GLCS:H5VU10U")
-		(at 85.09 162.56 270)
+		(at 86.36 162.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21796,7 +21796,7 @@
 		(dnp no)
 		(uuid "6125d5a2-1cde-4ba1-8fa5-7f7e4babbd7b")
 		(property "Reference" "D8"
-			(at 81.788 159.512 90)
+			(at 83.058 159.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21805,7 +21805,7 @@
 			)
 		)
 		(property "Value" "H5VU10U"
-			(at 87.63 163.8299 90)
+			(at 88.9 163.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21815,7 +21815,7 @@
 			)
 		)
 		(property "Footprint" "GLCS:Diode_DFN1006"
-			(at 80.645 162.56 0)
+			(at 81.915 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21824,7 +21824,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
-			(at 85.09 162.56 0)
+			(at 86.36 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21833,7 +21833,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 85.09 162.56 0)
+			(at 86.36 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21842,7 +21842,7 @@
 			)
 		)
 		(property "Basic" "E"
-			(at 85.09 162.56 90)
+			(at 86.36 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21851,7 +21851,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C22395519"
-			(at 85.09 162.56 90)
+			(at 86.36 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21860,7 +21860,7 @@
 			)
 		)
 		(property "Manufacturer" "hongjiacheng"
-			(at 85.09 162.56 90)
+			(at 86.36 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21869,7 +21869,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "H5VU10U"
-			(at 85.09 162.56 90)
+			(at 86.36 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30677,10 +30677,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "df126ad2-fcff-479d-898b-0a09e0d28973")
 		(property "Reference" "C15"
-			(at 82.804 162.306 0)
+			(at 84.074 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30689,7 +30689,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 82.804 164.846 0)
+			(at 84.074 165.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)

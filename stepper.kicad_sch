@@ -1095,25 +1095,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "M"
-				(at 3.81 2.54 0)
+			(property "Reference" "M2"
+				(at 4.826 1.016 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Value" "Stepper_Motor_bipolar"
-				(at 3.81 1.27 0)
+				(at -2.1208 -5.08 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify right)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 				(at 0.254 -0.254 0)
 				(effects
 					(font
@@ -1376,7 +1377,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1394,7 +1395,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2388,7 +2389,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 124.46) (xy 161.29 125.73)
+			(xy 161.29 127) (xy 161.29 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3548,7 +3549,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 125.73 0)
+		(at 161.29 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3556,7 +3557,7 @@
 		(dnp no)
 		(uuid "81af8078-8b89-4728-a830-c72a13cdc027")
 		(property "Reference" "#PWR083"
-			(at 161.29 132.08 0)
+			(at 161.29 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3566,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.226 127.254 0)
+			(at 157.226 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 125.73 0)
+			(at 161.29 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +3584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 125.73 0)
+			(at 161.29 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +3593,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 125.73 0)
+			(at 161.29 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,34 +3904,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 161.29 121.92 0)
+		(lib_id "Device:C")
+		(at 161.29 123.19 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a8f7f418-b881-4838-87b1-d3aa4ed894f1")
+		(fields_autoplaced yes)
+		(uuid "bd98208e-738f-44a2-9651-a81973892a4e")
 		(property "Reference" "C38"
-			(at 153.416 122.174 0)
+			(at 165.1 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "0u47"
-			(at 153.416 124.714 0)
+		(property "Value" "1u"
+			(at 165.1 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 161.29 121.92 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 160.3248 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +3942,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 121.92 0)
+			(at 161.29 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,8 +3950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 161.29 121.92 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,7 +3960,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 161.29 121.92 0)
+			(at 161.29 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,8 +3968,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1623"
-			(at 161.29 121.92 0)
+		(property "JLCPCB Part #" "C52923"
+			(at 161.29 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +3978,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 161.29 121.92 0)
+			(at 161.29 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,8 +3986,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B474KA8NNNC"
-			(at 161.29 121.92 0)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 161.29 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,10 +3996,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6060ea45-61a6-49b6-baec-4abbffd21846")
+			(uuid "6a10acbf-8bc4-4522-87cc-92f2bf7cec46")
 		)
 		(pin "1"
-			(uuid "73c1259d-879e-45b6-aa5c-6aaaebf2f83c")
+			(uuid "37121e65-ad4d-4635-9e20-9d2445830f73")
 		)
 		(instances
 			(project "valrob-pami-cdf-1"

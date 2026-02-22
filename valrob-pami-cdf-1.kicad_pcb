@@ -31086,15 +31086,15 @@
 			(uuid "465426e6-3a18-4c28-9035-071be6eea24d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30U-M_1x02_P5.0mm_Vertical.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/XT30-M_m.ver.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 8 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)

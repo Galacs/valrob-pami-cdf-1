@@ -9630,10 +9630,6 @@
 		(uuid "a1caf661-ab15-4f31-8f5a-d45e309fcb7f")
 	)
 	(no_connect
-		(at 189.23 71.12)
-		(uuid "b69739bb-8d78-4aa5-9025-2c4c7838b93c")
-	)
-	(no_connect
 		(at 189.23 93.98)
 		(uuid "b770b175-2487-4336-ad9d-2c1876d9270f")
 	)
@@ -9752,16 +9748,6 @@
 			(type default)
 		)
 		(uuid "0388c8cf-7e0f-4bd3-b5dd-8e4bea966f0b")
-	)
-	(wire
-		(pts
-			(xy 264.16 99.06) (xy 255.27 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03a3719c-9b20-4808-b8ec-de3e52f44f50")
 	)
 	(wire
 		(pts
@@ -10805,6 +10791,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 121.92) (xy 255.27 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c60907f-98a3-400b-b367-725abe933ccb")
+	)
+	(wire
+		(pts
 			(xy 125.73 48.26) (xy 125.73 41.91)
 		)
 		(stroke
@@ -11475,7 +11471,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 76.2) (xy 189.23 76.2)
+			(xy 180.34 76.2) (xy 189.23 76.2)
 		)
 		(stroke
 			(width 0)
@@ -12115,7 +12111,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 78.74) (xy 189.23 78.74)
+			(xy 180.34 78.74) (xy 189.23 78.74)
 		)
 		(stroke
 			(width 0)
@@ -12712,6 +12708,16 @@
 			(type default)
 		)
 		(uuid "9ef16731-a90f-4b8f-8899-dd807df35454")
+	)
+	(wire
+		(pts
+			(xy 180.34 71.12) (xy 189.23 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f28d588-56a7-46ce-bfe7-26a5d32e4db6")
 	)
 	(wire
 		(pts
@@ -14105,16 +14111,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 109.22) (xy 267.97 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeea217d-f3e2-47e1-9f47-fe8148012c19")
-	)
-	(wire
-		(pts
 			(xy 90.17 63.5) (xy 90.17 62.23)
 		)
 		(stroke
@@ -14573,6 +14569,16 @@
 		)
 		(uuid "3e02a10a-da2a-4b20-a3e4-8bc4547892c9")
 	)
+	(label "BUZZER"
+		(at 180.34 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e14d45c-e98b-4e9e-9c1f-c507de33aaa8")
+	)
 	(label "VPWM_1"
 		(at 264.16 91.44 180)
 		(effects
@@ -14612,16 +14618,6 @@
 			(justify left bottom)
 		)
 		(uuid "51d6a0c0-b3fb-4bf6-afe8-9253ee7f2492")
-	)
-	(label "BUZZER"
-		(at 276.86 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5378db69-7ddb-4ecf-bf1f-3071fd717854")
 	)
 	(label "~{FAULT_2}"
 		(at 279.4 120.65 180)
@@ -14843,18 +14839,8 @@
 		)
 		(uuid "a9992482-041a-48f7-994f-f6b7ec1cf8ba")
 	)
-	(label "DIR_2"
-		(at 264.16 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ac094890-75be-4809-a3f2-46ba082b4637")
-	)
 	(label "XTAL_P"
-		(at 181.61 78.74 0)
+		(at 180.34 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14923,6 +14909,16 @@
 		)
 		(uuid "e60c578f-c398-4e8b-9834-a331fc2cd884")
 	)
+	(label "DIR_2"
+		(at 264.16 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb54d11d-a639-4df4-a511-f6fc41686fa0")
+	)
 	(label "VDD_SPI"
 		(at 194.31 36.83 0)
 		(effects
@@ -14934,7 +14930,7 @@
 		(uuid "ec03baf9-0200-445a-9f65-61382a5f628a")
 	)
 	(label "XTAL_N"
-		(at 181.61 76.2 0)
+		(at 180.34 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)

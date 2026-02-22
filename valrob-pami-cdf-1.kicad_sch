@@ -9616,10 +9616,6 @@
 		(uuid "7815bdb9-7c37-46bc-ac22-af756b68ad16")
 	)
 	(no_connect
-		(at 189.23 86.36)
-		(uuid "84a741c5-6a19-4aac-8467-5ff7436077e1")
-	)
-	(no_connect
 		(at 189.23 88.9)
 		(uuid "8d405253-a84f-4a66-a013-f5f7b1492817")
 	)
@@ -11327,7 +11323,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 120.65) (xy 270.51 120.65)
+			(xy 264.16 116.84) (xy 255.27 116.84)
 		)
 		(stroke
 			(width 0)
@@ -12877,16 +12873,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 116.84) (xy 255.27 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5f00760-e63d-4373-967b-5d8d616fd0db")
-	)
-	(wire
-		(pts
 			(xy 275.59 146.05) (xy 275.59 147.32)
 		)
 		(stroke
@@ -14397,6 +14383,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 86.36) (xy 189.23 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb236dbf-05bb-498b-a015-f3b5b93d8270")
+	)
+	(wire
+		(pts
 			(xy 53.34 139.7) (xy 64.77 139.7)
 		)
 		(stroke
@@ -14595,16 +14591,6 @@
 		)
 		(uuid "31552a77-7e78-41f4-a746-b9993c500432")
 	)
-	(label "SERVO1"
-		(at 264.16 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3441e8a4-3d27-4f3b-ac66-b508b9b57d28")
-	)
 	(label "SCL"
 		(at 115.57 138.43 0)
 		(effects
@@ -14666,7 +14652,7 @@
 		(uuid "51d6a0c0-b3fb-4bf6-afe8-9253ee7f2492")
 	)
 	(label "~{FAULT_2}"
-		(at 279.4 120.65 180)
+		(at 264.16 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15004,6 +14990,16 @@
 			(justify left bottom)
 		)
 		(uuid "f63f870c-f8c4-4952-a6fb-e66a6733732d")
+	)
+	(label "SERVO1"
+		(at 180.34 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcb533c0-532a-419c-a46d-1cacfcfdbc66")
 	)
 	(label "~{FAULT_1}"
 		(at 139.7 90.17 0)

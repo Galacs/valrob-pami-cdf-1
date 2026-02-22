@@ -16187,7 +16187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
 			(at 19.05 53.34 0)
 			(effects
 				(font
@@ -16223,7 +16223,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C144395"
+		(property "JLCPCB Part #" ""
 			(at 19.05 53.34 0)
 			(effects
 				(font
@@ -16241,7 +16241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "B4B-XH-A(LF)(SN)"
+		(property "Manufacturer Part Number" ""
 			(at 19.05 53.34 0)
 			(effects
 				(font
@@ -28609,7 +28609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
 			(at 78.74 142.24 0)
 			(effects
 				(font
@@ -28645,7 +28645,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C99101"
+		(property "JLCPCB Part #" "C431092"
 			(at 78.74 142.24 0)
 			(effects
 				(font
@@ -28663,7 +28663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "XT30U-M"
+		(property "Manufacturer Part Number" "XT30PW-M30.G.Y"
 			(at 78.74 142.24 0)
 			(effects
 				(font

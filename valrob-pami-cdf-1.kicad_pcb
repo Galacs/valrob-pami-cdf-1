@@ -23138,7 +23138,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "6f0ddcff-ca5f-47af-a314-980b55549f05")
+			(uuid "d5acb31b-0345-4872-861f-bdd9f9a8842c")
 		)
 		(pad "57" thru_hole circle
 			(at -1.75 1.75 270)
@@ -23153,7 +23153,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "6f0ddcff-ca5f-47af-a314-980b55549f05")
+			(uuid "eeb2281f-77bb-4ab6-8224-722c6fd382b3")
 		)
 		(pad "57" thru_hole circle
 			(at 0 -1.75 270)
@@ -23168,7 +23168,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "6f0ddcff-ca5f-47af-a314-980b55549f05")
+			(uuid "ca845e35-5372-41ca-b335-5d19f28ffee1")
 		)
 		(pad "57" thru_hole circle
 			(at 0 0 270)
@@ -23183,7 +23183,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "6f0ddcff-ca5f-47af-a314-980b55549f05")
+			(uuid "2651921c-578f-4723-9fe7-39c764a99f29")
 		)
 		(pad "57" smd rect
 			(at 0 0 270)
@@ -23194,7 +23194,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "6f0ddcff-ca5f-47af-a314-980b55549f05")
+			(uuid "9680826f-6788-4077-9e54-d50da6ed642b")
 		)
 		(pad "57" smd rect
 			(at 0 0 270)
@@ -23205,7 +23205,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "6f0ddcff-ca5f-47af-a314-980b55549f05")
+			(uuid "68914dc5-b1ae-4ae0-92f0-27937ac2cd5f")
 		)
 		(pad "57" thru_hole circle
 			(at 0 1.75 270)
@@ -23220,7 +23220,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "6f0ddcff-ca5f-47af-a314-980b55549f05")
+			(uuid "3f38cee6-6b2a-4bc1-aec5-8f23a5e64405")
 		)
 		(pad "57" thru_hole circle
 			(at 1.75 -1.75 270)
@@ -23235,7 +23235,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "6f0ddcff-ca5f-47af-a314-980b55549f05")
+			(uuid "506246d4-4e24-491f-8cb1-90267050c663")
 		)
 		(pad "57" thru_hole circle
 			(at 1.75 0 270)
@@ -23250,7 +23250,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "6f0ddcff-ca5f-47af-a314-980b55549f05")
+			(uuid "42e14dde-6035-417b-a8ef-7054a2d5da25")
 		)
 		(pad "57" thru_hole circle
 			(at 1.75 1.75 270)
@@ -23265,7 +23265,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "6f0ddcff-ca5f-47af-a314-980b55549f05")
+			(uuid "c461de2a-c5cb-4bc7-a5a9-9f7bf91f4ccb")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm.step"
@@ -34627,7 +34627,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "7a2b5457-544b-490c-9a49-6ae8b7a0df69")
 		)
 		(fp_poly
@@ -34641,7 +34640,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "5c72ed82-cb89-4e66-8c61-5b92fa7a5a39")
 		)
 		(fp_poly
@@ -34656,7 +34654,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "a9488da9-43dc-47a5-9751-0fa75b45609b")
 		)
 		(fp_poly
@@ -34672,7 +34669,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "a802abb2-8bb3-4f00-a080-317d9ac2e7a2")
 		)
 		(fp_poly
@@ -34689,7 +34685,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "d9283279-0061-4816-ad8b-91f28a025fc4")
 		)
 		(fp_poly
@@ -34706,7 +34701,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "976ddcb5-fea2-40a8-9c63-c1206c9e410f")
 		)
 		(fp_poly
@@ -34724,7 +34718,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "369aec8b-8529-4553-b2e2-b1725ab99f22")
 		)
 		(fp_poly
@@ -34743,7 +34736,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "9f980aa6-fd92-4e32-80e9-44a0ba023174")
 		)
 		(fp_poly
@@ -34762,7 +34754,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "402db20c-b353-4447-824b-17451dda8299")
 		)
 		(fp_poly
@@ -34781,7 +34772,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "4678b984-f1e8-48e8-9e38-90637e98bd5d")
 		)
 		(fp_poly
@@ -34800,7 +34790,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "16456c5c-64a3-4236-a677-eb523a4abc52")
 		)
 		(fp_poly
@@ -34820,7 +34809,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "2ac89616-a1ba-420b-ac6c-7ca6b84cc953")
 		)
 		(fp_poly
@@ -34842,7 +34830,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "45904080-498a-4b42-846d-96caeadde7ed")
 		)
 		(fp_poly
@@ -34864,7 +34851,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "6e10675d-98cf-42c2-b973-3b900df4cee0")
 		)
 		(fp_poly
@@ -34887,7 +34873,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "481f3c83-6883-4060-9466-3ce3b12d485b")
 		)
 		(fp_poly
@@ -34911,7 +34896,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "a7c9a74a-cc3d-418f-8388-398b253ce529")
 		)
 		(fp_poly
@@ -34939,7 +34923,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "ea085c01-d338-44ee-80cf-5e082dec8075")
 		)
 		(fp_poly
@@ -34968,7 +34951,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "8a461459-6d55-4cb9-8c55-6c105669f529")
 		)
 		(fp_poly
@@ -34999,7 +34981,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "5a256210-b714-4ea1-bbc0-b2bdeed27e5e")
 		)
 		(fp_poly
@@ -35036,7 +35017,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "6c8c3735-488e-4d69-80e7-7f01b2a9ce6e")
 		)
 		(fp_poly
@@ -35076,7 +35056,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "10cfc770-c2b8-452d-8007-d2c924a651b1")
 		)
 		(fp_poly
@@ -35128,7 +35107,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "096c6db7-cce8-4e35-9858-41a114eaee72")
 		)
 		(fp_poly
@@ -35264,7 +35242,6 @@
 			)
 			(fill yes)
 			(layer "B.SilkS")
-			(net 112)
 			(uuid "a8de1eff-80ab-4144-b8ab-f43b5bf6b9d5")
 		)
 		(embedded_fonts no)
@@ -35336,7 +35313,6 @@
 			)
 			(fill yes)
 			(layer "B.Mask")
-			(net 112)
 			(uuid "ea5d5599-1094-4f28-b46a-11ce98ec9719")
 		)
 		(fp_poly
@@ -35350,7 +35326,6 @@
 			)
 			(fill yes)
 			(layer "B.Mask")
-			(net 112)
 			(uuid "a333f84f-3510-4060-b8d6-1879cd159266")
 		)
 		(fp_poly
@@ -35365,7 +35340,6 @@
 			)
 			(fill yes)
 			(layer "B.Mask")
-			(net 112)
 			(uuid "3a917a33-82dc-4280-8858-64448ed776d3")
 		)
 		(fp_poly
@@ -35380,7 +35354,6 @@
 			)
 			(fill yes)
 			(layer "B.Mask")
-			(net 112)
 			(uuid "d4678850-bdaa-4639-a843-be5a3de489b4")
 		)
 		(fp_poly
@@ -35399,7 +35372,6 @@
 			)
 			(fill yes)
 			(layer "B.Mask")
-			(net 112)
 			(uuid "9fb1ae8e-1466-453f-9b81-aab238b6cff1")
 		)
 		(fp_poly
@@ -35427,7 +35399,6 @@
 			)
 			(fill yes)
 			(layer "B.Mask")
-			(net 112)
 			(uuid "61579095-2487-4876-a6dc-87efdea4507b")
 		)
 		(fp_poly
@@ -35455,7 +35426,6 @@
 			)
 			(fill yes)
 			(layer "B.Mask")
-			(net 112)
 			(uuid "45371c99-236d-4eed-99e1-19889565e4bd")
 		)
 		(fp_poly
@@ -35483,7 +35453,6 @@
 			)
 			(fill yes)
 			(layer "B.Mask")
-			(net 112)
 			(uuid "f9a05b00-ccfd-47a9-a31a-5fa832723600")
 		)
 		(embedded_fonts no)

@@ -4108,7 +4108,7 @@
 		(path "/e3160d2a-8565-4a4a-8421-34361a6efca1")
 		(sheetname "/")
 		(sheetfile "valrob-pami-cdf-1.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_rect
 			(start -0.93 -0.47)
 			(end 0.93 0.47)
@@ -19129,7 +19129,7 @@
 		(path "/98361dc2-019a-47ce-b18c-4bcec0e17f77")
 		(sheetname "/")
 		(sheetfile "valrob-pami-cdf-1.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_rect
 			(start -0.93 -0.47)
 			(end 0.93 0.47)
@@ -22490,7 +22490,7 @@
 			(roundrect_rratio 0.25)
 			(net 121 "unconnected-(U4-GPIO1{slash}ADC1_CH0-Pad6)")
 			(pinfunction "GPIO1/ADC1_CH0")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b71b9c8b-9428-4848-8774-155b20fd75c0")
 		)
 		(pad "7" smd roundrect
@@ -22500,7 +22500,7 @@
 			(roundrect_rratio 0.25)
 			(net 123 "unconnected-(U4-GPIO2{slash}ADC1_CH1-Pad7)")
 			(pinfunction "GPIO2/ADC1_CH1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d1b9e185-75ad-4566-b705-83bc532dc1df")
 		)
 		(pad "8" smd roundrect
@@ -22510,7 +22510,7 @@
 			(roundrect_rratio 0.25)
 			(net 122 "unconnected-(U4-GPIO3{slash}ADC1_CH2-Pad8)")
 			(pinfunction "GPIO3/ADC1_CH2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "306764be-0e9e-4dcf-9dfc-5bc5a54981a1")
 		)
 		(pad "9" smd roundrect
@@ -43841,45 +43841,6 @@
 		)
 	)
 	(zone
-		(net 39)
-		(net_name "+Vbus")
-		(layer "F.Cu")
-		(uuid "42fcffa0-63c0-487c-a1a6-26f3aae295cb")
-		(name "$teardrop_track$")
-		(hatch none 0.1)
-		(priority 30006)
-		(attr
-			(teardrop
-				(type track_end)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 158.965 80.762349) (xy 158.665 80.762349) (xy 158.638949 81.082881) (xy 158.815 81.1189) (xy 158.991051 81.082881)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 158.962485 80.765776) (xy 158.965874 80.773101) (xy 158.990211 81.072548) (xy 158.987465 81.081072)
-				(xy 158.980894 81.084959) (xy 158.817345 81.11842) (xy 158.812655 81.11842) (xy 158.712103 81.097847)
-				(xy 158.649104 81.084958) (xy 158.641686 81.079943) (xy 158.639788 81.07255) (xy 158.664126 80.7731)
-				(xy 158.668212 80.765133) (xy 158.675788 80.762349) (xy 158.954212 80.762349)
-			)
-		)
-	)
-	(zone
 		(net 2)
 		(net_name "+3V3")
 		(layer "F.Cu")
@@ -44135,48 +44096,6 @@
 				(xy 141.771549 115.75) (xy 141.73182 115.738431) (xy 141.709928 115.7245) (xy 136.25 112.25) (xy 134.280652 112.25)
 				(xy 134.228326 112.228326) (xy 134.021674 112.021674) (xy 134 111.969348) (xy 134 110.030651) (xy 134.021673 109.978326)
 				(xy 134.105002 109.894997) (xy 134.157325 109.873325)
-			)
-		)
-	)
-	(zone
-		(net 39)
-		(net_name "+Vbus")
-		(layer "F.Cu")
-		(uuid "72ce0df1-6162-403d-9b58-df7a85ed2549")
-		(name "$teardrop_track$")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type track_end)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 163.49409 79.706222) (xy 163.706222 79.49409) (xy 163.457867 79.111107) (xy 163.249293 79.249293)
-				(xy 163.111107 79.457867)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 163.464232 79.120924) (xy 163.464295 79.12102) (xy 163.70107 79.486146) (xy 163.702696 79.494952)
-				(xy 163.699526 79.500785) (xy 163.500785 79.699526) (xy 163.492512 79.702953) (xy 163.486146 79.70107)
-				(xy 163.289297 79.573419) (xy 163.285938 79.570104) (xy 163.273504 79.551496) (xy 163.223722 79.518233)
-				(xy 163.197757 79.513067) (xy 163.193674 79.511409) (xy 163.12102 79.464295) (xy 163.115943 79.456918)
-				(xy 163.117568 79.448113) (xy 163.247981 79.251272) (xy 163.251273 79.247981) (xy 163.448019 79.117631)
-				(xy 163.456805 79.11592)
 			)
 		)
 	)

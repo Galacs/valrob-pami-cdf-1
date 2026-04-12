@@ -633,6 +633,629 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Driver_Motor:TMC2209-LA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -11.684 26.924 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TMC2209-LA"
+				(at 13.208 26.924 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm_ThermalVias"
+				(at 0 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf"
+				(at 0 -29.972 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2-phase stepper motor driver, 256 µSteps, 2.8A peak, 2.0A RMS, VS = 4.75..29V, STEP/DIR and UART interface, VQFN-28"
+				(at 0 -32.004 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ADI-Trinamic Analog-Devices"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*VQFN*5x5mm*P0.5mm*EP3.7*3.7*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TMC2209-LA_0_1"
+				(rectangle
+					(start -12.7 25.4)
+					(end 12.7 -22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TMC2209-LA_1_1"
+				(pin output line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "OB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "~{EN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "CPO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "CPI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 27.94 270)
+					(length 2.54)
+					(name "VCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "SPREAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 20.32 180)
+					(length 2.54)
+					(name "5VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "MS1/AD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "MS2/AD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 -15.24 0)
+					(length 2.54)
+					(name "DIAG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "INDEX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "~{PD}/UART"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 27.94 270)
+					(length 2.54)
+					(name "VCC_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 20.32 0)
+					(length 2.54)
+					(name "STEP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 17.78 0)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "STDBY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "OA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 27.94 270)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(name "BRA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "OA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -25.4 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "OB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -17.78 180)
+					(length 2.54)
+					(name "BRB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 27.94 270)
+					(length 2.54)
+					(hide yes)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GLCS:DRV8424RGER"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2007,7 +2630,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DRV8424 Stepper\nDriver"
+	(text "TMC2209 Stepper\nDriver"
 		(exclude_from_sim no)
 		(at 131.318 75.184 0)
 		(effects
@@ -2044,12 +2667,6 @@
 		(uuid "7d0a47c0-90b1-4086-86e2-6ffd3c47cf22")
 	)
 	(junction
-		(at 148.59 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0c95819-8137-4c7d-80de-1064917bd848")
-	)
-	(junction
 		(at 165.1 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2077,6 +2694,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 115.57) (xy 83.82 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053d9537-1676-4ce6-811a-10d96e4fb7f4")
+	)
+	(wire
+		(pts
 			(xy 153.67 83.82) (xy 153.67 85.09)
 		)
 		(stroke
@@ -2094,16 +2721,6 @@
 			(type default)
 		)
 		(uuid "092dfbdf-cc9a-47e9-9783-7867870196b6")
-	)
-	(wire
-		(pts
-			(xy 146.05 85.09) (xy 146.05 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e98014c-9437-4fbc-ba03-f2f7589dcbb6")
 	)
 	(wire
 		(pts
@@ -2127,6 +2744,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 97.79) (xy 76.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19780c46-525b-4f06-829f-6cd1f3cee23a")
+	)
+	(wire
+		(pts
 			(xy 163.83 76.2) (xy 163.83 74.93)
 		)
 		(stroke
@@ -2134,6 +2761,26 @@
 			(type default)
 		)
 		(uuid "20088ee0-e24e-4dfa-897e-05418a673d1c")
+	)
+	(wire
+		(pts
+			(xy 74.93 107.95) (xy 77.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b16daa-a0e7-42f1-b36c-0b10ae85a629")
+	)
+	(wire
+		(pts
+			(xy 88.9 118.11) (xy 88.9 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d846fa9-a75f-4a01-98ca-7af3dae3cbd4")
 	)
 	(wire
 		(pts
@@ -2157,13 +2804,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 88.9) (xy 161.29 91.44)
+			(xy 74.93 118.11) (xy 88.9 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e12377c-4819-45a2-b428-d9824f74676b")
+		(uuid "40e831ac-fbdd-4c53-abe3-dcc06a9415cd")
 	)
 	(wire
 		(pts
@@ -2227,26 +2874,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 101.6) (xy 172.72 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59e2f538-5032-42be-abb3-95df25d36b7b")
-	)
-	(wire
-		(pts
-			(xy 167.64 100.33) (xy 163.83 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ff8f9b1-9e8e-4f16-bdf4-df04466e15b7")
-	)
-	(wire
-		(pts
 			(xy 158.75 85.09) (xy 163.83 85.09)
 		)
 		(stroke
@@ -2257,7 +2884,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 78.74) (xy 148.59 74.93)
+			(xy 148.59 74.93) (xy 148.59 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2327,6 +2954,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 110.49) (xy 78.74 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876782c6-d304-4d9e-9ade-99466f315aaa")
+	)
+	(wire
+		(pts
 			(xy 133.35 96.52) (xy 134.62 96.52)
 		)
 		(stroke
@@ -2347,13 +2984,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 100.33) (xy 163.83 96.52)
+			(xy 77.47 105.41) (xy 78.74 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b5ebc1d-39df-488c-941a-61763322a50d")
+		(uuid "932438a8-8420-4919-b15b-58dbb62c730a")
+	)
+	(wire
+		(pts
+			(xy 77.47 107.95) (xy 77.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b672f31-ecde-43dc-86be-3b296051a2e0")
 	)
 	(wire
 		(pts
@@ -2407,16 +3054,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 80.01) (xy 146.05 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a96909d8-c88b-44d4-a03b-5c3a163af758")
-	)
-	(wire
-		(pts
 			(xy 125.73 101.6) (xy 125.73 100.33)
 		)
 		(stroke
@@ -2424,26 +3061,6 @@
 			(type default)
 		)
 		(uuid "b0a13a7b-e5ac-45c1-99e7-990a1b7da131")
-	)
-	(wire
-		(pts
-			(xy 161.29 91.44) (xy 160.02 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1da5d73-e4d6-49f9-8e7f-db334280b785")
-	)
-	(wire
-		(pts
-			(xy 161.29 88.9) (xy 162.56 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4f2c568-ce3c-40d4-b7eb-cbd45821ce9f")
 	)
 	(wire
 		(pts
@@ -2487,26 +3104,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 86.36) (xy 148.59 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6644b46-0b32-4793-9db2-9cbbbd92fb99")
-	)
-	(wire
-		(pts
-			(xy 172.72 101.6) (xy 172.72 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d72ba91c-9014-4d14-ba9b-2005a2d7d82a")
-	)
-	(wire
-		(pts
 			(xy 160.02 110.49) (xy 161.29 110.49)
 		)
 		(stroke
@@ -2547,16 +3144,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 93.98) (xy 162.56 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef9b9cfa-4dd3-4d9a-ae53-db952949a1a1")
-	)
-	(wire
-		(pts
 			(xy 153.67 85.09) (xy 158.75 85.09)
 		)
 		(stroke
@@ -2587,23 +3174,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 99.06) (xy 167.64 100.33)
+			(xy 74.93 102.87) (xy 76.2 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbb47e5d-3599-4149-8447-c55aee536bbb")
-	)
-	(wire
-		(pts
-			(xy 146.05 78.74) (xy 148.59 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc05d807-9eb8-455b-839f-6bb30687b946")
+		(uuid "fadb6fad-f828-404e-8322-e457cae4feea")
 	)
 	(wire
 		(pts
@@ -3191,7 +3768,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Stepper_Motor_bipolar")
-		(at 170.18 91.44 90)
+		(at 86.36 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3201,7 +3778,7 @@
 		(dnp no)
 		(uuid "26a64d7a-5183-40e1-a2b0-a2f513b0a602")
 		(property "Reference" "M2"
-			(at 169.164 86.614 90)
+			(at 85.344 103.124 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3212,7 +3789,7 @@
 			)
 		)
 		(property "Value" "Stepper_Motor_bipolar"
-			(at 175.26 93.5608 90)
+			(at 91.44 110.0708 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3224,7 +3801,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
-			(at 170.434 91.186 0)
+			(at 86.614 107.696 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3235,7 +3812,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-			(at 170.434 91.186 0)
+			(at 86.614 107.696 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3246,7 +3823,7 @@
 			)
 		)
 		(property "Description" "4-wire bipolar stepper motor"
-			(at 170.18 91.44 0)
+			(at 86.36 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3743,7 +4320,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 146.05 82.55 0)
+		(at 76.2 100.33 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3754,29 +4331,29 @@
 		(dnp no)
 		(uuid "5f2b94b5-ec06-4cea-ba58-aee967f34d47")
 		(property "Reference" "C36"
-			(at 143.51 81.2735 0)
+			(at 78.232 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "22n"
-			(at 143.51 83.8135 0)
+			(at 78.232 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 146.05 82.55 0)
+			(at 76.2 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3787,7 +4364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 82.55 0)
+			(at 76.2 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3798,7 +4375,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 146.05 82.55 0)
+			(at 76.2 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3809,7 +4386,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 146.05 82.55 0)
+			(at 76.2 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,7 +4397,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1532"
-			(at 146.05 82.55 0)
+			(at 76.2 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3831,7 +4408,7 @@
 			)
 		)
 		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
-			(at 146.05 82.55 0)
+			(at 76.2 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3842,7 +4419,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402B223K500NT"
-			(at 146.05 82.55 0)
+			(at 76.2 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4159,6 +4736,173 @@
 				)
 				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2/ac36a521-9363-451f-b288-e4e7fa573403"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:TMC2209-LA")
+		(at 59.69 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "934402f2-c18f-4762-b7be-140c3d5a504a")
+		(property "Reference" "U8"
+			(at 64.3733 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TMC2209-LA"
+			(at 64.3733 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm_ThermalVias"
+			(at 59.69 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf"
+			(at 59.69 137.922 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-phase stepper motor driver, 256 µSteps, 2.8A peak, 2.0A RMS, VS = 4.75..29V, STEP/DIR and UART interface, VQFN-28"
+			(at 59.69 139.954 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "d20cfe4d-9f97-4825-b704-2a9c0139935a")
+		)
+		(pin "17"
+			(uuid "30b7cccc-bd57-4966-a654-90100ed95100")
+		)
+		(pin "11"
+			(uuid "213f4ac7-a878-47aa-b706-30b548684e4f")
+		)
+		(pin "13"
+			(uuid "ac0967c0-208e-4f33-a2db-47c2e886e220")
+		)
+		(pin "12"
+			(uuid "cb00fdcf-bd85-4edc-ae5d-a8872f554f41")
+		)
+		(pin "29"
+			(uuid "1af12824-caa2-4aa0-afc4-7cbb7b27e22a")
+		)
+		(pin "28"
+			(uuid "b164445d-dd2b-483a-80bc-5778d9cc61ab")
+		)
+		(pin "27"
+			(uuid "f3e08ba6-664b-4e6b-883b-0e754d3b0b21")
+		)
+		(pin "26"
+			(uuid "5b252865-a442-4404-a5a8-b0d8ab8a3084")
+		)
+		(pin "25"
+			(uuid "262183e2-fe06-4e9f-9fe4-a9ee3dcf9878")
+		)
+		(pin "24"
+			(uuid "bc68a31c-184c-4f4c-8f25-fddccdadea9a")
+		)
+		(pin "23"
+			(uuid "7fd9c4cc-a601-4d16-9053-ae7e0cc3742d")
+		)
+		(pin "21"
+			(uuid "0ae0b23e-0563-4306-8ce8-44ed3ecd99ed")
+		)
+		(pin "22"
+			(uuid "933e1b02-a29a-4aae-afee-7ef510c309d8")
+		)
+		(pin "20"
+			(uuid "4d2885a5-93e5-4205-a866-1e0354331509")
+		)
+		(pin "19"
+			(uuid "caea8f98-ff60-4a96-9fdf-137310376739")
+		)
+		(pin "18"
+			(uuid "ccc8258b-063b-47c2-8f8b-d8ec7b221b2d")
+		)
+		(pin "14"
+			(uuid "e02a4f1b-8f0f-4577-bdc6-cb64043937f0")
+		)
+		(pin "10"
+			(uuid "c06094e4-939f-4bad-8ea2-52c6eb152ef2")
+		)
+		(pin "8"
+			(uuid "64a7e458-6699-4e8b-96e5-e5573d796d72")
+		)
+		(pin "5"
+			(uuid "9001843f-ca20-4fb0-a077-9975b871eeb2")
+		)
+		(pin "2"
+			(uuid "1e96b02a-8021-43e5-a3f1-f6a34c8a0e97")
+		)
+		(pin "15"
+			(uuid "912c52ee-57f6-4f35-b881-c0ab46973fb7")
+		)
+		(pin "16"
+			(uuid "95021948-5aaf-4789-a471-af74a0a4001c")
+		)
+		(pin "1"
+			(uuid "f5a75bd9-821f-414b-8a10-e7af11cbc19b")
+		)
+		(pin "6"
+			(uuid "ffc4d874-ad2f-4e8f-9bf7-10e4ed498731")
+		)
+		(pin "9"
+			(uuid "50ef3984-30cd-4a73-a920-b1f4accc3ef7")
+		)
+		(pin "7"
+			(uuid "5e6595c8-a248-4545-b0d9-afac6b5a7dfa")
+		)
+		(pin "3"
+			(uuid "b9bd6837-966c-45c8-9d3f-8f308c40fa6a")
+		)
+		(instances
+			(project "valrob-pami-cdf-1"
+				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2/76a9917c-de3d-414f-bb04-8dfa3aa5ad43"
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2/ac36a521-9363-451f-b288-e4e7fa573403"
+					(reference "U8")
 					(unit 1)
 				)
 			)

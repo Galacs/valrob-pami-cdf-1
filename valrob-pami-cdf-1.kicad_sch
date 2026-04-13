@@ -10236,6 +10236,10 @@
 		(uuid "3eea8f11-e88d-49ad-8c94-f802fbfef6bd")
 	)
 	(no_connect
+		(at 255.27 114.3)
+		(uuid "621a12cc-f0ca-4a06-a165-1f67f9c686ac")
+	)
+	(no_connect
 		(at 189.23 99.06)
 		(uuid "6220c452-9ff8-42d6-968c-a2b2f67ad3ba")
 	)
@@ -10250,10 +10254,6 @@
 	(no_connect
 		(at 38.1 127)
 		(uuid "7815bdb9-7c37-46bc-ac22-af756b68ad16")
-	)
-	(no_connect
-		(at 255.27 124.46)
-		(uuid "7d4e45d4-1454-4bb0-b7a1-c90c31e86456")
 	)
 	(no_connect
 		(at 255.27 76.2)
@@ -11457,16 +11457,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 127) (xy 255.27 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a9c7e1b-759a-47ab-b832-470af8dfcf72")
-	)
-	(wire
-		(pts
 			(xy 245.11 147.32) (xy 242.57 147.32)
 		)
 		(stroke
@@ -11484,16 +11474,6 @@
 			(type default)
 		)
 		(uuid "3bee5b14-c403-4da8-a73c-949177cbd9c2")
-	)
-	(wire
-		(pts
-			(xy 264.16 121.92) (xy 255.27 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c60907f-98a3-400b-b367-725abe933ccb")
 	)
 	(wire
 		(pts
@@ -12034,6 +12014,16 @@
 			(type default)
 		)
 		(uuid "5b0de6f9-383a-416e-b861-747512a18840")
+	)
+	(wire
+		(pts
+			(xy 264.16 127) (xy 255.27 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3d849e-6b47-4cff-9e4e-82592d457181")
 	)
 	(wire
 		(pts
@@ -12657,6 +12647,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 124.46) (xy 255.27 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764e30bb-fa97-4642-9861-f615725d9e8c")
+	)
+	(wire
+		(pts
 			(xy 119.38 57.15) (xy 114.3 57.15)
 		)
 		(stroke
@@ -13044,6 +13044,16 @@
 			(type default)
 		)
 		(uuid "8c385cdd-c0d9-466f-9ec1-cd163fc55241")
+	)
+	(wire
+		(pts
+			(xy 264.16 121.92) (xy 255.27 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ddde466-b77e-4c6f-ae99-2651b4b7ae5a")
 	)
 	(wire
 		(pts
@@ -14877,16 +14887,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 114.3) (xy 255.27 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4745fe9-de3a-462e-9cd0-09d72caf891b")
-	)
-	(wire
-		(pts
 			(xy 255.27 106.68) (xy 273.05 106.68)
 		)
 		(stroke
@@ -15085,16 +15085,6 @@
 		)
 		(uuid "ff8d36c0-7c0c-4bbb-b70d-182a2876dfd4")
 	)
-	(label "STEP_2"
-		(at 264.16 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "00b83238-d09a-469d-b713-bc3766e9eaae")
-	)
 	(label "ESP_D+"
 		(at 264.16 63.5 180)
 		(effects
@@ -15265,16 +15255,6 @@
 		)
 		(uuid "51d6a0c0-b3fb-4bf6-afe8-9253ee7f2492")
 	)
-	(label "EN_2"
-		(at 264.16 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "53b0e474-4e6e-46f3-886a-c3bcf904ed58")
-	)
 	(label "XTAL_PL"
 		(at 87.63 182.88 90)
 		(effects
@@ -15284,6 +15264,16 @@
 			(justify left bottom)
 		)
 		(uuid "552b7754-857f-495b-88eb-2c57abddf69f")
+	)
+	(label "DIR_2"
+		(at 264.16 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "591a4243-0abc-402c-98f3-7d4d1522081d")
 	)
 	(label "STEP_2"
 		(at 139.7 97.79 0)
@@ -15364,6 +15354,16 @@
 			(justify left bottom)
 		)
 		(uuid "84ef5c5f-9306-4c87-89e4-43664b7b9819")
+	)
+	(label "EN_2"
+		(at 264.16 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a320e5e-a885-47da-9e93-5e8239a9d366")
 	)
 	(label "DIR_2"
 		(at 139.7 95.25 0)
@@ -15485,6 +15485,16 @@
 		)
 		(uuid "c2495c4a-490a-4d6c-b323-aa7334bcf561")
 	)
+	(label "STEP_2"
+		(at 264.16 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca450b70-298a-40f0-89a4-414eb8302fd4")
+	)
 	(label "SDA"
 		(at 278.13 106.68 180)
 		(effects
@@ -15514,16 +15524,6 @@
 			(justify left bottom)
 		)
 		(uuid "e60c578f-c398-4e8b-9834-a331fc2cd884")
-	)
-	(label "DIR_2"
-		(at 264.16 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb54d11d-a639-4df4-a511-f6fc41686fa0")
 	)
 	(label "VDD_SPI"
 		(at 194.31 36.83 0)
@@ -24765,6 +24765,131 @@
 			(project "valrob-pami-cdf-1"
 				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c3abc5c-8692-4bef-93d6-306eb800ea0a")
+		(property "Reference" "C15"
+			(at 83.566 163.322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 83.566 165.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 78.4352 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 77.47 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C440198"
+			(at 77.47 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 77.47 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
+			(at 77.47 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c2ec1d38-daed-4cd4-b538-5b809e74797e")
+		)
+		(pin "1"
+			(uuid "67d44a2d-f54a-4f17-8d34-6fa03e97588d")
+		)
+		(instances
+			(project "valrob-pami-cdf-1"
+				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -34403,132 +34528,6 @@
 			(project "valrob-pami-cdf-1"
 				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 77.47 162.56 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "df126ad2-fcff-479d-898b-0a09e0d28973")
-		(property "Reference" "C15"
-			(at 84.074 162.814 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 84.074 165.354 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 76.5048 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 77.47 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 77.47 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C96123"
-			(at 77.47 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 77.47 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CL31A476MPHNNNE"
-			(at 77.47 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a76be2c9-0281-48cf-87f3-c49c8da878b0")
-		)
-		(pin "1"
-			(uuid "309e1984-6c42-47e7-b45c-edb4f7b6ec2a")
-		)
-		(instances
-			(project "valrob-pami-cdf-1"
-				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2"
-					(reference "C15")
 					(unit 1)
 				)
 			)

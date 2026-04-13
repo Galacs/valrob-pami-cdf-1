@@ -10240,8 +10240,8 @@
 		(uuid "3eea8f11-e88d-49ad-8c94-f802fbfef6bd")
 	)
 	(no_connect
-		(at 255.27 114.3)
-		(uuid "621a12cc-f0ca-4a06-a165-1f67f9c686ac")
+		(at 255.27 116.84)
+		(uuid "53ca8868-c786-4ca3-9288-6eccfabba287")
 	)
 	(no_connect
 		(at 189.23 99.06)
@@ -11824,6 +11824,16 @@
 			(type default)
 		)
 		(uuid "501603d4-3885-42c5-91d3-344d55282ed5")
+	)
+	(wire
+		(pts
+			(xy 264.16 114.3) (xy 255.27 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "501ef1e6-659b-4f3c-a5b7-3144d14ec2cf")
 	)
 	(wire
 		(pts
@@ -13917,16 +13927,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 116.84) (xy 255.27 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bee7b726-264a-47af-92b0-90b42ad31ee5")
-	)
-	(wire
-		(pts
 			(xy 93.98 124.46) (xy 93.98 125.73)
 		)
 		(stroke
@@ -15215,6 +15215,16 @@
 		)
 		(uuid "2bd5d300-eab3-4c90-a47b-4cdc41939b43")
 	)
+	(label "RGB1"
+		(at 264.16 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a7f6807-5152-4243-a901-70ba6c7e058a")
+	)
 	(label "SCL"
 		(at 115.57 138.43 0)
 		(effects
@@ -15334,16 +15344,6 @@
 			(justify left bottom)
 		)
 		(uuid "77f4893e-e129-4b11-b051-67573778f807")
-	)
-	(label "RGB1"
-		(at 264.16 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c56ee10-aed3-46a8-8a8a-64f227b1f0a8")
 	)
 	(label "SERVO1"
 		(at 81.28 154.94 0)

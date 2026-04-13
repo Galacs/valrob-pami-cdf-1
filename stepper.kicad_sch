@@ -640,24 +640,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -11.684 26.924 0)
+			(property "Reference" "U9"
+				(at 4.6833 -25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "TMC2209-LA"
-				(at 13.208 26.924 0)
+				(at 4.6833 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_DFN_QFN:VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm_ThermalVias"
@@ -684,6 +686,50 @@
 			)
 			(property "Description" "2-phase stepper motor driver, 256 µSteps, 2.8A peak, 2.0A RMS, VS = 4.75..29V, STEP/DIR and UART interface, VQFN-28"
 				(at 0 -32.004 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Basic" "X"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part #" "C2150710"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Trinamic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "TMC2209-LA-T"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1091,7 +1137,7 @@
 					)
 				)
 				(pin output line
-					(at 15.24 -2.54 180)
+					(at 15.24 0 180)
 					(length 2.54)
 					(name "OA2"
 						(effects
@@ -1145,7 +1191,7 @@
 					)
 				)
 				(pin output line
-					(at 15.24 0 180)
+					(at 15.24 -2.54 180)
 					(length 2.54)
 					(name "OA1"
 						(effects
@@ -1878,16 +1924,16 @@
 		(uuid "1d94fcf5-7473-4db4-b0c0-db0496f61e21")
 	)
 	(junction
-		(at 133.35 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "367ff816-5ceb-409a-9b55-ac5e98025833")
-	)
-	(junction
 		(at 170.18 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "381c7dea-2190-4b61-949b-43101f885f4b")
+	)
+	(junction
+		(at 133.35 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "497d5ddb-24c9-467a-ad41-5c405a97e3db")
 	)
 	(junction
 		(at 139.7 59.69)
@@ -1902,28 +1948,16 @@
 		(uuid "686ae901-d327-4a54-8d4c-b6c4d77b5e69")
 	)
 	(junction
+		(at 133.35 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f4d646f-6c1d-4471-a2e6-436584e3674c")
+	)
+	(junction
 		(at 139.7 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b337f0c-ff29-44d7-9c42-fa61e8202dc9")
-	)
-	(junction
-		(at 127 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b12c819a-e286-4721-880b-8658022543ef")
-	)
-	(junction
-		(at 133.35 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba523b79-d05a-4288-95d3-36c066dc1539")
-	)
-	(junction
-		(at 127 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdbcb632-9192-4064-a29a-cdc5a8bfbba8")
 	)
 	(no_connect
 		(at 137.16 115.57)
@@ -1971,16 +2005,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 68.58) (xy 133.35 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "090fd514-1122-40d3-8d06-55957d1b486e")
-	)
-	(wire
-		(pts
 			(xy 167.64 82.55) (xy 170.18 82.55)
 		)
 		(stroke
@@ -2011,7 +2035,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 69.85) (xy 127 71.12)
+			(xy 133.35 69.85) (xy 133.35 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2121,6 +2145,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 69.85) (xy 133.35 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42549207-acf9-4415-9efc-9928d656ff2d")
+	)
+	(wire
+		(pts
 			(xy 139.7 59.69) (xy 146.05 59.69)
 		)
 		(stroke
@@ -2181,7 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 59.69) (xy 127 59.69)
+			(xy 129.54 59.69) (xy 133.35 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2191,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 58.42) (xy 123.19 59.69)
+			(xy 129.54 58.42) (xy 129.54 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2261,16 +2295,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 59.69) (xy 127 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9938caca-6d50-4264-884a-a192e29fe265")
-	)
-	(wire
-		(pts
 			(xy 170.18 97.79) (xy 170.18 95.25)
 		)
 		(stroke
@@ -2331,7 +2355,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 69.85) (xy 127 68.58)
+			(xy 133.35 69.85) (xy 133.35 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2351,16 +2375,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 69.85) (xy 139.7 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c02b3592-d424-49c1-87ff-adf60f62c76c")
-	)
-	(wire
-		(pts
 			(xy 135.89 85.09) (xy 137.16 85.09)
 		)
 		(stroke
@@ -2371,33 +2385,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 69.85) (xy 127 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4d57895-0329-4a6a-91df-9a4186eca73b")
-	)
-	(wire
-		(pts
-			(xy 127 59.69) (xy 127 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6db6f11-47ba-436a-b0d8-afb581de8148")
-	)
-	(wire
-		(pts
 			(xy 133.35 59.69) (xy 133.35 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1ab6ff0-55d5-4dae-bfc1-448fa94a7690")
+		(uuid "c6db6f11-47ba-436a-b0d8-afb581de8148")
 	)
 	(wire
 		(pts
@@ -2516,7 +2510,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 64.77 0)
+		(at 139.7 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2526,7 +2520,7 @@
 		(dnp no)
 		(uuid "04373a95-1ac1-4a3e-984c-97fefeaa1924")
 		(property "Reference" "C49"
-			(at 134.62 55.372 0)
+			(at 140.97 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2537,7 +2531,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 134.62 57.912 0)
+			(at 140.97 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2548,7 +2542,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 134.3152 68.58 0)
+			(at 140.6652 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2559,7 +2553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 64.77 0)
+			(at 139.7 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2570,7 +2564,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 64.77 0)
+			(at 139.7 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2581,7 +2575,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 133.35 64.77 0)
+			(at 139.7 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2592,7 +2586,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C440198"
-			(at 133.35 64.77 0)
+			(at 139.7 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2603,7 +2597,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 133.35 64.77 0)
+			(at 139.7 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2614,7 +2608,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
-			(at 133.35 64.77 0)
+			(at 139.7 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2727,7 +2721,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 127 64.77 0)
+		(at 133.35 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2737,7 +2731,7 @@
 		(dnp no)
 		(uuid "182032df-1d7a-41b7-bc9d-622a82c9b40f")
 		(property "Reference" "C39"
-			(at 125.476 55.372 0)
+			(at 131.826 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2748,7 +2742,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 125.476 57.912 0)
+			(at 131.826 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2759,7 +2753,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 127.9652 68.58 0)
+			(at 134.3152 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2770,7 +2764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 64.77 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2781,7 +2775,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 127 64.77 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2792,7 +2786,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 127 64.77 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2803,7 +2797,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C165974"
-			(at 127 64.77 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2814,7 +2808,7 @@
 			)
 		)
 		(property "Manufacturer" "PANASONIC"
-			(at 127 64.77 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2825,7 +2819,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "EEEFTH101XAP"
-			(at 127 64.77 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3023,6 +3017,135 @@
 				)
 				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2/ac36a521-9363-451f-b288-e4e7fa573403"
 					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 182.88 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41375137-c231-47d4-8a60-19108d1608e3")
+		(property "Reference" "C35"
+			(at 185.674 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 185.674 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 183.8452 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 182.88 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 182.88 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C23733"
+			(at 182.88 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 182.88 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A475MP5NRNC"
+			(at 182.88 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "861569ee-bc11-400c-9e5f-b0e5037c024f")
+		)
+		(pin "1"
+			(uuid "1487254a-2804-41ad-a847-bc77935d8468")
+		)
+		(instances
+			(project "valrob-pami-cdf-1"
+				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2/76a9917c-de3d-414f-bb04-8dfa3aa5ad43"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2/ac36a521-9363-451f-b288-e4e7fa573403"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -3371,137 +3494,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 182.88 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6623bbaf-3f43-4a3d-bc04-11ed84330915")
-		(property "Reference" "C55"
-			(at 189.738 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 189.738 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 183.8452 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 182.88 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 182.88 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C440198"
-			(at 182.88 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 182.88 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
-			(at 182.88 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "659804e0-220f-4122-ad6e-5db1843d2ad8")
-		)
-		(pin "1"
-			(uuid "7c27625c-fd03-4785-959f-51fa1aad102d")
-		)
-		(instances
-			(project "valrob-pami-cdf-1"
-				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2/76a9917c-de3d-414f-bb04-8dfa3aa5ad43"
-					(reference "C56")
-					(unit 1)
-				)
-				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2/ac36a521-9363-451f-b288-e4e7fa573403"
-					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
-		(at 123.19 58.42 0)
+		(at 129.54 58.42 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3512,7 +3506,7 @@
 		(dnp no)
 		(uuid "6e638bfc-3db9-40e3-8557-0d73ee606d85")
 		(property "Reference" "#PWR084"
-			(at 123.19 62.23 0)
+			(at 129.54 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3523,7 +3517,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 119.126 56.642 0)
+			(at 125.476 56.642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3533,7 +3527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 58.42 0)
+			(at 129.54 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3544,7 +3538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 58.42 0)
+			(at 129.54 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3555,7 +3549,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 123.19 58.42 0)
+			(at 129.54 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3583,7 +3577,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 71.12 0)
+		(at 133.35 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3593,7 +3587,7 @@
 		(dnp no)
 		(uuid "90fd1ce0-d195-4356-b978-887a137a6e66")
 		(property "Reference" "#PWR097"
-			(at 127 77.47 0)
+			(at 133.35 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3604,7 +3598,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 122.936 72.644 0)
+			(at 129.286 72.644 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3615,7 +3609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 71.12 0)
+			(at 133.35 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3626,7 +3620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 71.12 0)
+			(at 133.35 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3637,7 +3631,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 71.12 0)
+			(at 133.35 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3869,135 +3863,6 @@
 				)
 				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2/ac36a521-9363-451f-b288-e4e7fa573403"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 139.7 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9422bbd7-c98a-49ef-b338-4c61879c35ee")
-		(property "Reference" "C51"
-			(at 140.97 55.372 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 140.97 57.912 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 140.6652 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 139.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 139.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C440198"
-			(at 139.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 139.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
-			(at 139.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "240f942e-c5ca-4ee3-b3ce-51bccba88dd8")
-		)
-		(pin "1"
-			(uuid "ddafd1bc-5ae6-41bb-a1d6-7f4e6e337f7d")
-		)
-		(instances
-			(project "valrob-pami-cdf-1"
-				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2/76a9917c-de3d-414f-bb04-8dfa3aa5ad43"
-					(reference "C52")
-					(unit 1)
-				)
-				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2/ac36a521-9363-451f-b288-e4e7fa573403"
-					(reference "C51")
 					(unit 1)
 				)
 			)

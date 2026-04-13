@@ -9890,12 +9890,6 @@
 		(uuid "78155bea-4a87-49d3-814d-edf5f00b8f2e")
 	)
 	(junction
-		(at 265.43 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78aec871-7371-4513-b4c6-beb7ba77f2ae")
-	)
-	(junction
 		(at 64.77 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9978,6 +9972,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98f1b3cf-6952-48d7-a170-96ade5e04b0c")
+	)
+	(junction
+		(at 265.43 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99917386-9f09-4210-8520-4e3d65352a81")
 	)
 	(junction
 		(at 114.3 57.15)
@@ -10232,6 +10232,10 @@
 		(uuid "2a30c50b-8b9c-47ac-9574-0c0ca362731a")
 	)
 	(no_connect
+		(at 255.27 109.22)
+		(uuid "3b933bf6-be55-43aa-8df4-2a8e334a5b76")
+	)
+	(no_connect
 		(at 189.23 109.22)
 		(uuid "3eea8f11-e88d-49ad-8c94-f802fbfef6bd")
 	)
@@ -10246,10 +10250,6 @@
 	(no_connect
 		(at 35.56 102.87)
 		(uuid "6bbeb2ac-6d2a-48ca-9f45-528de9473f43")
-	)
-	(no_connect
-		(at 255.27 96.52)
-		(uuid "6c505940-59b3-473f-be9d-d9d4b8bd71f8")
 	)
 	(no_connect
 		(at 38.1 127)
@@ -10288,10 +10288,6 @@
 		(uuid "b770b175-2487-4336-ad9d-2c1876d9270f")
 	)
 	(no_connect
-		(at 255.27 93.98)
-		(uuid "bcde02f9-484f-401a-9cbc-bf9bc40506c1")
-	)
-	(no_connect
 		(at 189.23 68.58)
 		(uuid "c61005fa-c9a5-4d7f-b87d-8f32f9193913")
 	)
@@ -10310,6 +10306,10 @@
 	(no_connect
 		(at 88.9 49.53)
 		(uuid "f1679230-bf7b-42a0-842c-1070a108bc12")
+	)
+	(no_connect
+		(at 255.27 111.76)
+		(uuid "f5dcb48f-8ae0-460b-beac-3293da7a06a0")
 	)
 	(no_connect
 		(at 255.27 83.82)
@@ -10434,6 +10434,16 @@
 			(type default)
 		)
 		(uuid "053e90cc-2aab-49f5-8f62-c86861e979b0")
+	)
+	(wire
+		(pts
+			(xy 265.43 86.36) (xy 265.43 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05895492-1741-4536-8e5c-d6b682add53e")
 	)
 	(wire
 		(pts
@@ -10734,16 +10744,6 @@
 			(type default)
 		)
 		(uuid "11dcc8dd-269a-428b-a83e-dff875b1c8fe")
-	)
-	(wire
-		(pts
-			(xy 264.16 109.22) (xy 265.43 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12a85d9d-4d43-4e0c-abe4-8c0ceb7f9cbe")
 	)
 	(wire
 		(pts
@@ -11167,6 +11167,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 88.9) (xy 271.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc8c625-0be7-4c68-be89-bc989213f3b8")
+	)
+	(wire
+		(pts
 			(xy 39.37 29.21) (xy 39.37 30.48)
 		)
 		(stroke
@@ -11324,16 +11334,6 @@
 			(type default)
 		)
 		(uuid "34ab58b8-e6ec-4a94-b459-4ee4d13982fb")
-	)
-	(wire
-		(pts
-			(xy 264.16 88.9) (xy 255.27 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34f6572e-b075-4d4a-a350-337770b5c769")
 	)
 	(wire
 		(pts
@@ -12287,6 +12287,26 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 86.36) (xy 256.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6474118a-3277-4c6a-b739-4871cb6160bc")
+	)
+	(wire
+		(pts
+			(xy 255.27 88.9) (xy 265.43 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d8d5c1-66c9-48da-b193-fd023dc7a51f")
+	)
+	(wire
+		(pts
 			(xy 110.49 143.51) (xy 110.49 142.24)
 		)
 		(stroke
@@ -12344,16 +12364,6 @@
 			(type default)
 		)
 		(uuid "68b1fd68-20a1-4dd6-874d-668825302dbe")
-	)
-	(wire
-		(pts
-			(xy 255.27 109.22) (xy 256.54 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68ff2747-b551-4079-8728-4eb0476f7df2")
 	)
 	(wire
 		(pts
@@ -12667,16 +12677,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 91.44) (xy 255.27 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7769d664-8de1-4ebd-acec-db71dd4f5da3")
-	)
-	(wire
-		(pts
 			(xy 33.02 39.37) (xy 33.02 41.91)
 		)
 		(stroke
@@ -12704,16 +12704,6 @@
 			(type default)
 		)
 		(uuid "7888682c-ea58-4b7a-a077-3a936b977921")
-	)
-	(wire
-		(pts
-			(xy 255.27 111.76) (xy 265.43 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78c4ab59-8e2f-456d-8bc9-f1fdecdbc79d")
 	)
 	(wire
 		(pts
@@ -12864,6 +12854,16 @@
 			(type default)
 		)
 		(uuid "8132c5ec-c23e-4837-a89b-5562449186b9")
+	)
+	(wire
+		(pts
+			(xy 264.16 86.36) (xy 265.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a4c927-4fae-41ba-9605-baad040e9baf")
 	)
 	(wire
 		(pts
@@ -13214,6 +13214,26 @@
 			(type default)
 		)
 		(uuid "9a71059f-60d3-4c6c-bfac-05497c7aeb9e")
+	)
+	(wire
+		(pts
+			(xy 264.16 93.98) (xy 255.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a811a18-057f-4853-93ce-c560383c3021")
+	)
+	(wire
+		(pts
+			(xy 264.16 91.44) (xy 255.27 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa80df4-ce7c-495c-b10c-ca5b74749d40")
 	)
 	(wire
 		(pts
@@ -13747,16 +13767,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 109.22) (xy 265.43 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6058163-2a0b-4c64-9172-eda1c0fe2fcc")
-	)
-	(wire
-		(pts
 			(xy 176.53 44.45) (xy 185.42 44.45)
 		)
 		(stroke
@@ -13844,16 +13854,6 @@
 			(type default)
 		)
 		(uuid "bc470f3a-1e60-41ce-8781-ff707f6eeb47")
-	)
-	(wire
-		(pts
-			(xy 264.16 86.36) (xy 255.27 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bca6e8fc-4a22-4aa7-96eb-7d18a1030cbd")
 	)
 	(wire
 		(pts
@@ -14527,16 +14527,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 111.76) (xy 271.78 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e314b3cb-062a-4c15-9e44-b5c2e88d8c4e")
-	)
-	(wire
-		(pts
 			(xy 270.51 156.21) (xy 270.51 160.02)
 		)
 		(stroke
@@ -15057,6 +15047,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 96.52) (xy 255.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc631a0c-160e-4c44-875a-8bc47cd5a085")
+	)
+	(wire
+		(pts
 			(xy 25.4 124.46) (xy 25.4 125.73)
 		)
 		(stroke
@@ -15145,6 +15145,16 @@
 		)
 		(uuid "1a2998ed-4a41-4e20-9557-828161af7332")
 	)
+	(label "EN_1"
+		(at 264.16 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1afb2e99-c473-4dae-aec5-2cf278a90555")
+	)
 	(label "RGB1"
 		(at 15.24 102.87 0)
 		(effects
@@ -15186,6 +15196,16 @@
 		(uuid "27edbba8-66b4-41ee-8a14-581f0578149c")
 	)
 	(label "UART"
+		(at 271.78 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29ed479d-5f7f-4768-9969-2e0c3075fa15")
+	)
+	(label "UART"
 		(at 139.7 87.63 0)
 		(effects
 			(font
@@ -15194,16 +15214,6 @@
 			(justify left bottom)
 		)
 		(uuid "2bd5d300-eab3-4c90-a47b-4cdc41939b43")
-	)
-	(label "EN_1"
-		(at 264.16 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35f08115-14cc-4fe2-954c-ace7a323d595")
 	)
 	(label "SCL"
 		(at 115.57 138.43 0)
@@ -15225,15 +15235,15 @@
 		)
 		(uuid "3e14d45c-e98b-4e9e-9c1f-c507de33aaa8")
 	)
-	(label "UART"
-		(at 271.78 111.76 180)
+	(label "DIR_1"
+		(at 264.16 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "488ec4b2-9995-4d96-ac8b-12c6d2b879fd")
+		(uuid "3fb199e9-7321-4d79-b088-82cd709d90f3")
 	)
 	(label "Vsense"
 		(at 175.26 146.05 0)
@@ -15304,16 +15314,6 @@
 			(justify left bottom)
 		)
 		(uuid "5f30ba67-4c46-40ae-862c-64f1a6dab83e")
-	)
-	(label "DIR_1"
-		(at 264.16 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "66e06fba-4df3-4ad2-9b67-b0cd0c4ccbbd")
 	)
 	(label "TOF_INT"
 		(at 264.16 101.6 180)
@@ -15425,6 +15425,16 @@
 		)
 		(uuid "a40374b6-1640-4138-acb6-05f7cb9d1a49")
 	)
+	(label "STEP_1"
+		(at 264.16 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a74b260a-c90e-4d33-b50c-003b8ba041d2")
+	)
 	(label "XTAL_N"
 		(at 104.14 182.88 180)
 		(effects
@@ -15454,16 +15464,6 @@
 			(justify left bottom)
 		)
 		(uuid "b00df474-490f-45b3-bfcc-c226fea8625a")
-	)
-	(label "STEP_1"
-		(at 264.16 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b36f615e-f465-4bad-9796-3ad14b8368dd")
 	)
 	(label "ESP_D-"
 		(at 264.16 66.04 180)
@@ -17374,7 +17374,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 271.526 88.646 0)
+			(at 275.59 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18863,129 +18863,6 @@
 			(project "valrob-pami-cdf-1"
 				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 260.35 109.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "21393dd8-9690-4994-b8ab-5a77ca794b02")
-		(property "Reference" "R36"
-			(at 266.192 108.204 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 260.35 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 260.35 110.998 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 260.35 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 260.35 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C11702"
-			(at 260.35 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Uniroyal Elec"
-			(at 260.35 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "0402WGF1001TCE"
-			(at 260.35 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e35d3a82-f079-464b-9921-3888d32073c2")
-		)
-		(pin "1"
-			(uuid "0f0da76e-d24f-4f92-986a-2f7a34114413")
-		)
-		(instances
-			(project "valrob-pami-cdf-1"
-				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2"
-					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -25602,6 +25479,129 @@
 			(project "valrob-pami-cdf-1"
 				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 260.35 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7127a724-23a1-4e0e-b7b4-548a61f3688c")
+		(property "Reference" "R36"
+			(at 266.192 85.344 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 260.35 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 260.35 88.138 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 260.35 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 260.35 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C11702"
+			(at 260.35 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 260.35 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1001TCE"
+			(at 260.35 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "629dd599-e413-4684-a95f-bbc1f3de6b1e")
+		)
+		(pin "1"
+			(uuid "1f42003d-fc38-443a-aff0-6c2b83b83082")
+		)
+		(instances
+			(project "valrob-pami-cdf-1"
+				(path "/453def7e-2a78-4c3c-a4b7-f12883e5bdd2"
+					(reference "R36")
 					(unit 1)
 				)
 			)
